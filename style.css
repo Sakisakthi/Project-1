@@ -38,7 +38,7 @@
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 300px;
-    background-color: rgba(35, 187, 35, 0.5);
+    background-color: rgba(121, 235, 121, 0.425);
     align-items: center;
     justify-content: center
 }
@@ -51,6 +51,12 @@
     padding-top: 50px;
     padding-left: 50px;
 }
+.header-right h1
+{
+    color: white;
+    font-family: sans-serif;
+}
+
 .topic-grid
 {
     display: grid;
