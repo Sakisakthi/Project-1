@@ -19,3 +19,4 @@ if (!$(".goto").hasClass("animated")) {
 }
 }
 });
+/*  */
