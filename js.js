@@ -32,6 +32,6 @@ function myFunction() {
 
 
   function mobilefunction() {
-	window.scrollBy(0, 6000);
+	window.scrollBy(0, 8000);
 	
   }
