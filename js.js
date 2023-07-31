@@ -29,3 +29,9 @@ function myFunction() {
 	window.scrollBy(0, 4300);
 	
   }
+
+
+  function mobilefunction() {
+	window.scrollBy(0, 1000);
+	
+  }
