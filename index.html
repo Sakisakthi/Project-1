@@ -10,43 +10,15 @@
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm  navbar-dark rounded ">
-            <div class="container">
-                <a href="#" class="navbar-brand fw-normal fs-5">
-                        <img src="/yoga/Logo_new.png" width="200px" alt="" srcset="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#main-nav" aria-controls="main-nav" 
-                aria-expanded="false" aria-label="Toggle-navigation">
-                    <span class="navbar-toggler-icon bg-primary opacity-50"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center
-                 align-self-center" id="main-nav">
-                    <ul class="navbar-nav  fs-5 fw-semibold ">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link  text-black-50  mx-4 ">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-black-50 mx-4"> About As</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-black-50 mx-4">Contact</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link text-black-50 mx-4">Terms</a>
-                        </li>
-                        
-                        <li class="nav-item d-md-none">
-                            <a href="#" class="nav-link text-black-50 mx-4">Join Now</a>
-                        </li>
-                        <li class="nav-item ms-2 d-none d-md-inline">
-                            <a href="#" class="btn btn-outline-primary mx-4">Join Now</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    
-        </nav>
+        <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand"> <img src="/yoga/Logo_new.png" class="" width="250px" alt="" srcset=""></a>
+            <h4 class="display-6 d-none d-lg-flex">Dr. Bach's Flower Remedies </h4>
+            <form class="form-inline">
+              <button class="btn btn-outline-success ms-5 my-2 my-sm-0" onclick="myFunction()"  type="submit">Join Now</button>
+            </form>
+          </nav>
+
+
         <br>
         <div class="container">
             <div class="row  d-grid d-sm-inline-flex">
@@ -384,22 +356,22 @@
 
              <div class="align-items-center align-content-center justify-content-center d-grid d-lg-inline-flex d-sm-inline-block bg-secondary bg-opacity-25 rounded text-black  fw-semibold">
                 <div class="col-lg-3 col-sm-6">
-                    <div id="shiva"><span class="count align-items-center justify-content-center align-content-center display-6 d-grid">30</span></div>
-                    <p class="align-items-center justify-content-center d-grid  fw-semibold ms-4 fs-3"> +Years Teaching</p>
+                    <div id="shiva" class="d-inline-flex"><span class="count d-flex align-items-center justify-content-center align-self-center align-content-center display-6 d-grid ps-5 ms-5">30 </span> <span class="justify-content-end d-flex position-relative mb-4 fw-semibold my-3">+</span></div>
+                    <p class=" d-grid  fw-semibold ms-4 fs-3"> Years Teaching</p>
 
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <div id="shiva"><span class="count align-items-center display-6 justify-content-center d-grid">50000</span></div>
-                    <p class="align-items-center justify-content-center fw-semibold fs-3 ms-3 d-grid">+Offline Students</p>
+                    <div id="shiva" class="d-inline-flex"><span class="count align-items-center display-6 justify-content-center ms-5 ps-4 d-grid">50000</span><p class="justify-content-center my-3">+</p></div>
+                    <p class=" fw-semibold fs-3 ms-4 d-grid">Offline Students</p>
 
                 </div>
-                <div class="col-lg-3 col-sm-6"><div id="shiva"><span class="count display-6 d-sm-flex align-items-center justify-content-center d-grid">15</span></div>
-                <p class="align-items-center justify-content-center fw-semibold fs-3 ms-4  d-grid">+Yoga Course</p>
+                <div class="col-lg-3 col-sm-6"><div id="shiva" class="d-inline-flex"><span class="count display-6 d-sm-flex align-items-center justify-content-center ms-5 ps-5 d-grid">&nbsp;   15</span><p class="justify-content-center my-3">+</p></div>
+                <p class=" ms-5 fw-semibold fs-3  d-grid">Yoga Course</p>
 
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <div id="shiva"><span class="count align-items-center d-sm-flex display-6 justify-content-center d-grid">1000</span></div>
-                    <p class="align-items-center justify-content-center fw-semibold fs-3  d-grid">+Online Students</p>
+                    <div id="shiva" class="d-inline-flex"><span class="count align-items-center d-sm-flex display-6 justify-content-center ms-5 ps-5 d-grid">1000</span><p class="justify-content-center my-3">+</p></div>
+                    <p class=" fw-semibold fs-3  ms-4 d-grid">Online Students</p>
                 </div>
                 <div class="goto"><div style="clear:both"></div> </div>
              </div>
@@ -441,12 +413,17 @@
                         <div class="col">
                             <input type="text" id="name" name="Name" class="form-control w-100" placeholder="Name">
                           </div><br>
-                          <div class="form-group w-100 d-lg-inline-flex d-sm-inline-block ">
-                            <input type="email"  name="email" class="form-control my-2" id="email" aria-describedby="emailHelp" placeholder="Email"> &nbsp; &nbsp;
-                            <input type="tel" name="number" id="phone" placeholder="Phone number" class="form-control my-2 rounded">
-                          </div>
-                          <br>
-                          <div class="form-group my-2 w-100">
+                            <div class="row">
+                                <div class="col-lg-6 d-lg-inline-flex d-sm-inline-block">
+                                    <input type="email"  name="email" class="form-control my-3  w-100" id="email" aria-describedby="emailHelp" placeholder="Email">
+                                </div>
+                                  <div class="col-lg-6 d-lg-inline-flex d-sm-inline-block ">
+                                    <input type="tel" name="number" id="phone" placeholder="Phone number" class="form-control my-3 w-100 rounded">
+                                 </div>
+                            </div>
+                          
+                          <br> 
+                          <div class="form-group  w-100">
                             <select class="form-control w-75" name="select"  id="Select">
                               <option>Course</option>
                               <option>Group Yoga Classes</option>
@@ -460,8 +437,8 @@
                               <option>Yoga at your doorstep</option>
                             </select>
                             <br>
-                             <textarea class="form-control w-100" placeholder="Message.." name="Message" id="Message" rows="3"></textarea>
-                          </div><br><br>
+                             <textarea class="form-control my-2 w-100" placeholder="Message.." name="Message" id="Message" rows="3"></textarea>
+                          </div><br>
                           <div class="button-3 d-grid justify-content-center ">
                             <button type="submit" class="btn btn-primary mb-2">Submit</button>
                           </div>

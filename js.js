@@ -1,3 +1,5 @@
+/* runing number */
+
 $(window).on('scroll', function(e) {
     function numberWithCommas(x) {
             return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -19,4 +21,11 @@ if (!$(".goto").hasClass("animated")) {
 }
 }
 });
-/*  */
+
+
+/*  join now button scrool down */
+
+function myFunction() {
+	window.scrollBy(70000, 70000);
+	
+  }
