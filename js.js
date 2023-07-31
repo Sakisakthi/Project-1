@@ -26,6 +26,6 @@ if (!$(".goto").hasClass("animated")) {
 /*  join now button scrool down */
 
 function myFunction() {
-	window.scrollBy(70000, 70000);
+	window.scrollBy(0, 4300);
 	
   }
