@@ -66,5 +66,12 @@
 
   h4 svg
   {
-    margin-left: 80px;
+    margin-left: 60px;
   }
+  h4 span
+  {
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+
