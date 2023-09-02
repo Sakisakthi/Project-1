@@ -105,6 +105,7 @@
     border: 2px solid rgb(161, 144, 144);
     border-radius: 10px;
     max-width: 300px;
+    background: #fda085;
   }
   #outer-2
   {
@@ -113,6 +114,7 @@
     border-radius: 10px;
     border: 2px solid rgb(161, 144, 144);
     max-width: 300px;
+    background: #fda085;
 
   }
 
@@ -120,7 +122,7 @@
   #inner{
     margin:2px;
     padding: 10px 5px;
-    font-family:Poppins sans-serif;
+    font-family:Poppins sans-serif;    
   }
 
   h4 svg
