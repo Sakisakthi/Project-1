@@ -102,16 +102,16 @@
     height: 80px;
     width: 300px;
     background: rgba(0,0,0,0.403) 0px 10px 20px 0px;
-    border: 2px solid;
+    border: 2px solid rgb(161, 144, 144);
+    border-radius: 10px;
     max-width: 300px;
   }
   #outer-2
   {
     height: 100px;
-    width: 300px;
-    background: linear-gradient(rgb(190, 14, 14)(rgb(128, 184, 18)));
-    box-shadow: rgba(0, 0, 0, 0.856) 0px 10px 20px;
-    border: 2px solid;
+    width: 300px;  
+    border-radius: 10px;
+    border: 2px solid rgb(161, 144, 144);
     max-width: 300px;
 
   }
