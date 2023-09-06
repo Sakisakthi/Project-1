@@ -26,7 +26,7 @@ if (!$(".goto").hasClass("animated")) {
 /*  join now button scrool down */
 
 function myFunction() {
-	window.scrollBy(0, 4500);
+	window.scrollBy(0, 3500);
 	
   }
 
@@ -39,15 +39,15 @@ function myFunction() {
 
 
 /* slider in card yoga icons*/
-  $('.carousel .carousel-item').each(function () {
-	var minPerSlide = 4;
-	var next = $(this).next();
-	if (!next.length) {
-	next = $(this).siblings(':first');
-	}
-	next.children(':first-child').clone().appendTo($(this));
+//   $('.carousel .carousel-item').each(function () {
+// 	var minPerSlide = 4;
+// 	var next = $(this).next();
+// 	if (!next.length) {
+// 	next = $(this).siblings(':first');
+// 	}
+// 	next.children(':first-child').clone().appendTo($(this));
 	
-	for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); } });
+// 	for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); } });
 
 
 
