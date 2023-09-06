@@ -101,6 +101,22 @@
       max-width: 300px;
       border: 2px solid;
   }
+  #cont-1
+  {
+    height: 100px;
+    width: 360px;
+    border: 1px solid rgb(5, 0, 0);
+    box-sizing: border-box;
+    border-bottom-left-radius: 20px;
+  }
+  #cont-2
+  {
+    height: 100px;
+    width: 360px;
+    border: 1px solid rgb(167, 160, 160);
+    box-sizing: border-box;
+    border-bottom-right-radius: 20px;
+  }
   #outer-1
   {
     height: 80px;
@@ -119,7 +135,14 @@
     border: 2px solid rgb(161, 144, 144);
     max-width: 300px;
     background: #fda085;
-
+  }
+  #outer-3
+  {
+    
+    background:linear-gradient(to left, rgb(434,859,56),rgb(123,456,98));
+    color: black;
+    padding: 12px;
+      
   }
 
   
