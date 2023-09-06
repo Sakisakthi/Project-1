@@ -38,6 +38,10 @@ function myFunction() {
 
 
 
+
+
+
+
 /* slider in card yoga icons*/
 //   $('.carousel .carousel-item').each(function () {
 // 	var minPerSlide = 4;
