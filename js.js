@@ -26,7 +26,7 @@ if (!$(".goto").hasClass("animated")) {
 /*  join now button scrool down */
 
 function myFunction() {
-	window.scrollBy(0, 4300);
+	window.scrollBy(0, 4500);
 	
   }
 
@@ -48,3 +48,10 @@ function myFunction() {
 	next.children(':first-child').clone().appendTo($(this));
 	
 	for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); } });
+
+
+
+	/*reveal */
+	ScrollReveal().reveal('.headline');
+	ScrollReveal().reveal('.headline', { delay: 200 });
+	ScrollReveal().reveal('.tagline', { delay: 500 });
