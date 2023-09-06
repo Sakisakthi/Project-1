@@ -26,7 +26,7 @@ if (!$(".goto").hasClass("animated")) {
 /*  join now button scrool down */
 
 function myFunction() {
-	window.scrollBy(0, 4200);
+	window.scrollBy(0, 4500);
 	
   }
 
@@ -53,5 +53,5 @@ function myFunction() {
 
 	/*reveal */
 	ScrollReveal().reveal('.headline');
-	ScrollReveal().reveal('.headline', { delay: 150 });
-	ScrollReveal().reveal('.tagline', { delay: 300 });
+	ScrollReveal().reveal('.headline', { delay: 200 });
+	ScrollReveal().reveal('.tagline', { delay: 500 });
