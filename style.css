@@ -53,6 +53,16 @@
   }
 }
 
+.figure figcaption
+{
+  color:rgb(14, 2, 2);
+  font-weight: 600;
+}
+.sak img
+{
+  width: 60px;
+}
+
 
 /* button zoom animation start*/
 .button-4 {
