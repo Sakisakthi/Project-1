@@ -61,6 +61,7 @@
 .sak img
 {
   width: 60px;
+  column-gap: 10px;
 }
 
 
